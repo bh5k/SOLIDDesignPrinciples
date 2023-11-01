@@ -5,7 +5,4 @@ public class Bird {
         System.out.println("Bird is eating.");
     }
 
-    public void fly() {
-        System.out.println("Bird is flying.");
-    }
 }

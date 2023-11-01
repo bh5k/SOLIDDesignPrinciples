@@ -1,8 +1,8 @@
 package mediaLibrary;
 
-public interface MediaPlayer {
-    void play();
+public interface MediaPlayer extends Player {
+
     void display();
     void printInfo();
-    void loadMedia(String filename);
+
 }

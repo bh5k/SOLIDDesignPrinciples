@@ -1,8 +1,8 @@
 package birds;
 
-class Ostrich extends Bird {
-    @Override
-    public void fly() {
-        throw new UnsupportedOperationException("Ostrich can't fly.");
+class Ostrich extends Bird implements RunningBird {
+
+    public void run() {
+        System.out.println("I don't believe I can fly...");
     }
 }
